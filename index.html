@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAY - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- কাস্টম পার্টিক্যাল ট্র্যাকার কার্সার -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- নেভিগেশন বার -->
+    <nav class="navbar">
+        <div class="nav-brand">RAY<span class="dot">.</span></div>
+        <div class="nav-links">
+            <a href="#hero">Tentang</a>
+            <a href="#works">Karya</a>
+            <a href="#awards">Prestasi</a>
+            <a href="#contact">Kontak</a>
+        </div>
+    </nav>
+
+    <!-- হিরো সেকশন -->
+    <section id="hero" class="hero-section">
+        <div class="hero-text-bg">PORTFOLIO</div>
+        <div class="hero-content">
+            <p class="subtitle">EDITOR & VFX ARTIST</p>
+            <h1 class="main-title">HELLO, I'M <br><span class="highlight-red">RAY.</span></h1>
+            <p class="hero-desc">Menciptakan karya sinematik yang bercerita melalui visual yang mendalam dan memukau.</p>
+            <div class="hero-btns">
+                <a href="#works" class="btn btn-red">KARYA YANG BICARA</a>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-item">
+                <h2>3<span class="red">+</span></h2>
+                <p>Tahun Pengalaman</p>
+            </div>
+            <div class="stat-item">
+                <h2>18<span class="red">+</span></h2>
+                <p>Project Selesai</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ফিচারড ওয়ার্কস সেকশন -->
+    <section id="works" class="works-section reveal">
+        <h2 class="section-title">KARYA YANG BICARA<span class="dot">.</span></h2>
+        
+        <div class="work-grid">
+            <!-- কার্ড ১ -->
+            <div class="work-card">
+                <div class="card-image-box">
+                    <img src="https://picsum.photos/600/400?random=1" alt="Project 1">
+                    <div class="play-overlay"><span class="play-btn">▶</span></div>
+                </div>
+                <div class="card-info">
+                    <span class="card-num">01</span>
+                    <div>
+                        <h3>COMMERCIAL VIDEO</h3>
+                        <p>Cinematic Brand Campaign</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- কার্ড ২ -->
+            <div class="work-card">
+                <div class="card-image-box">
+                    <img src="https://picsum.photos/600/400?random=2" alt="Project 2">
+                    <div class="play-overlay"><span class="play-btn">▶</span></div>
+                </div>
+                <div class="card-info">
+                    <span class="card-num">02</span>
+                    <div>
+                        <h3>MUSIC VIDEO EDIT</h3>
+                        <p>Visual Narrative Editing</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- কার্ড ৩ -->
+            <div class="work-card">
+                <div class="card-image-box">
+                    <img src="https://picsum.photos/600/400?random=3" alt="Project 3">
+                    <div class="play-overlay"><span class="play-btn">▶</span></div>
+                </div>
+                <div class="card-info">
+                    <span class="card-num">03</span>
+                    <div>
+                        <h3>VFX SHOWCASE</h3>
+                        <p>3D Motion & Visual Effects</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- অ্যাওয়ার্ডস / অচিভমেন্ট সেকশন -->
+    <section id="awards" class="awards-section reveal">
+        <div class="awards-left">
+            <h2 class="big-text">THE WORK.<br>THE RECOGNITION<span class="dot">.</span></h2>
+            <div class="badge-num">10<span class="red">+</span></div>
+        </div>
+        <div class="awards-list">
+            <div class="award-item">
+                <div class="award-title">1st Place - Best Short Film</div>
+                <div class="award-year">2026</div>
+            </div>
+            <div class="award-item">
+                <div class="award-title">Best Editing & Composition</div>
+                <div class="award-year">2025</div>
+            </div>
+            <div class="award-item">
+                <div class="award-title">1st Place - Creative Video</div>
+                <div class="award-year">2024</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ফুটার সেকশন -->
+    <footer id="contact" class="footer-section reveal">
+        <h2>LET'S WORK TOGETHER<span class="dot">.</span></h2>
+        <p>Punya konsep atau project? Mari wujudkan bersama.</p>
+        <div class="footer-email">contact@re-portfolio.com</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
